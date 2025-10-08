@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operation Ganbatte: Q4 2025 Strategic Sprint</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center mb-12">
+            <h1 class="text-5xl md:text-7xl font-black text-[#003f5c] uppercase">Operation Ganbatte</h1>
+            <p class="text-xl md:text-2xl font-semibold text-[#7a5195] mt-2">A Strategic Sprint to Acquisition & Growth</p>
+        </header>
+
+        <section class="mb-16">
+            <div class="text-center bg-white p-8 rounded-lg shadow-lg">
+                <h2 class="text-2xl font-bold text-[#003f5c] mb-2">The Ikigai Mission: Q4 2025 - A Return to Purpose</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">This is our high-leverage moment. We are pivoting from survival to strategic value creation through extreme focus, delivering a key IP asset that secures our future.</p>
+                <div class="mt-6 text-8xl font-black text-[#ff764a]">Q4</div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-center text-[#003f5c] mb-8">The Financial Reality: A Focused Plan</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center justify-center text-center">
+                    <span class="text-6xl font-black text-[#ffa600]">$155K</span>
+                    <h3 class="text-xl font-bold mt-2 text-[#003f5c]">Required Funding Bridge</h3>
+                    <p class="text-gray-600 mt-1">The strategic capital needed to cover five payrolls and fully execute the Polaris-R sprint to maximize exit valuation.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md lg:col-span-2">
+                    <h3 class="text-xl font-bold text-center mb-4 text-[#003f5c]">Q4 Sprint Cost Coverage (K)</h3>
+                     <p class="text-gray-600 text-center mb-4">Total Q4 operational cost ($250K) covered by three distinct financial levers.</p>
+                    <div class="chart-container h-80 md:h-96">
+                        <canvas id="financialLeversChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-center text-[#003f5c] mb-8">The Ganbatte Sprint: Q4 Critical Timeline</h2>
+            <div class="relative wrap overflow-hidden p-10 h-full">
+                <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style="left: 50%"></div>
+                <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                    <div class="order-1 w-5/12"></div>
+                    <div class="z-20 flex items-center order-1 bg-[#7a5195] shadow-xl w-8 h-8 rounded-full">
+                        <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
+                    </div>
+                    <div class="order-1 bg-[#7a5195] rounded-lg shadow-xl w-5/12 px-6 py-4">
+                        <h3 class="mb-3 font-bold text-white text-xl">Oct 21st: IMI Demo</h3>
+                        <p class="text-sm leading-snug tracking-wide text-indigo-100">The critical acquisition trigger. A successful demo proves our technical superiority and team value.</p>
+                    </div>
+                </div>
+
+                <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                    <div class="order-1 w-5/12"></div>
+                    <div class="z-20 flex items-center order-1 bg-[#bc5090] shadow-xl w-8 h-8 rounded-full">
+                        <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
+                    </div>
+                    <div class="order-1 bg-[#bc5090] rounded-lg shadow-xl w-5/12 px-6 py-4">
+                        <h3 class="mb-3 font-bold text-white text-xl">Nov 30th: Merck Proposal & API</h3>
+                        <p class="text-sm leading-snug tracking-wide text-pink-100"><strong>Merck Beam Tracking proposal approved.</strong> Polaris-R analysis functions migrated. De-risks January revenue.</p>
+                    </div>
+                </div>
+                
+                <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                    <div class="order-1 w-5/12"></div>
+                    <div class="z-20 flex items-center order-1 bg-[#ef5675] shadow-xl w-8 h-8 rounded-full">
+                        <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
+                    </div>
+                    <div class="order-1 bg-[#ef5675] rounded-lg shadow-xl w-5/12 px-6 py-4">
+                        <h3 class="mb-3 font-bold text-white text-xl">Dec 31st: Polaris-R v1 SHIPPED</h3>
+                        <p class="text-sm leading-snug tracking-wide text-red-100">Delivery of the final IP asset: a production-grade, high-speed simulation suite required for all Q1 2026 work.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-center text-[#003f5c] mb-8">The Value Proposition: Polaris-R</h2>
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <p class="text-lg text-center text-gray-600 mb-6 max-w-3xl mx-auto">This transition ensures the Polaris legacy endures. Polaris-M remains your <strong>gold standard of scientific truth</strong>, capable of supporting your personal consulting work (e.g., Google). Polaris-R is the <strong>industrial-scale, super-conducting implementation</strong> that scales your science for AI/ML and global industry.</p>
+                <div class="chart-container h-80 md:h-96">
+                    <canvas id="polarisComparisonChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-center text-[#003f5c] mb-8">The Strategic Path to 2026</h2>
+             <div class="bg-white p-8 rounded-lg shadow-lg">
+                 <p class="text-lg text-center text-gray-600 mb-8 max-w-3xl mx-auto">We are executing a dual-track strategy to maximize the chance of a positive outcome. The <strong>Ganbatte</strong> plan makes our asset valuable for both paths.</p>
+                <div class="flex flex-col md:flex-row justify-center items-stretch space-y-8 md:space-y-0 md:space-x-8">
+                    <div class="flex-1 border-4 border-[#7a5195] p-6 rounded-lg text-center">
+                        <h3 class="text-2xl font-bold text-[#7a5195]">Track A: IMI Acquisition</h3>
+                        <p class="font-semibold mt-2 text-gray-700">(Highest ROI Objective)</p>
+                        <div class="text-6xl my-4 text-[#7a5195]">➔</div>
+                        <p class="text-gray-600">Position the team and IP for an asset purchase, securing jobs and liquidity for all equity holders.</p>
+                    </div>
+                    <div class="flex items-center text-2xl font-bold text-gray-400">OR</div>
+                    <div class="flex-1 border-2 border-gray-300 p-6 rounded-lg text-center">
+                        <h3 class="text-2xl font-bold text-[#374c80]">Track B: Fundraising</h3>
+                        <p class="font-semibold mt-2 text-gray-500">(Most Controllable Outcome)</p>
+                        <div class="text-6xl my-4 text-[#374c80]">➔</div>
+                        <p class="text-gray-600">Leverage the completed Polaris-R asset to secure a high-valuation funding round for the new ODA platform.</p>
+                    </div>
+                </div>
+             </div>
+        </section>
+
+        <section class="mb-16 bg-white p-8 rounded-lg shadow-lg">
+            <h2 class="text-3xl font-black text-center text-[#003f5c] mb-6">The ROI & The Commitment</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="p-4 border-l-4 border-[#ff764a] bg-gray-50 rounded-md">
+                    <h3 class="text-2xl font-bold text-[#ff764a] mb-2">The Investment Thesis (Return)</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>The <strong>$155K bridge</strong> funds the final 20% of Polaris-R, which <strong>unlocks 100% of commercial value</strong>.</li>
+                        <li><strong>Confirms January Revenue:</strong> Polaris-R is a <strong>mandatory prerequisite</strong> to execute the confirmed Merck Beam Tracking contract (optimization/tolerancing).</li>
+                        <li><strong>Downside Protection:</strong> The bridge investment pays for itself through the confirmed Merck revenue, even if Track A (Acquisition) fails.</li>
+                        <li><strong>Acquisition ROI:</strong> At a mid-range valuation, your estimated return is <strong>8.5x</strong> on total invested capital.</li>
+                    </ul>
+                </div>
+                <div class="p-4 border-l-4 border-[#7a5195] bg-gray-50 rounded-md">
+                    <h3 class="text-2xl font-bold text-[#7a5195] mb-2">Illuminating the Total Team Sacrifice</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li><strong>Chairman's Capital Burden:</strong> Since Feb 2025, the Chairman has supported the stability of the company with nearly <strong>$400K in capital investment</strong>, bearing the primary financial risk.</li>
+                        <li><strong>Team's Human Capital:</strong> Our team's sacrifice is measured in <strong>3.5 years of endured uncertainty</strong>, including a furlough, and highly skilled engineers accepting below-market compensation. <strong>Their continued presence is the high-value asset we sell.</strong></li>
+                        <li><strong>The Q4 Commitment:</strong> The team is committed to the full spirit of a "60-hour work week" to complete Polaris-R and is <strong>converting their equity risk into liquidity</strong> through this sprint.</li>
+                        <li><strong>President's Contribution:</strong> The <strong>$15K salary reduction</strong> and PTO conversion directly protects the company's Q4 cash flow and streamlines the balance sheet for acquisition.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-3xl font-bold text-center text-[#003f5c] mb-8">The Q1 2026 Payoff</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                     <div class="text-5xl mb-3">🤝</div>
+                    <h3 class="text-2xl font-bold text-[#ef5675]">Acquisition & Stability</h3>
+                    <p class="text-gray-600 mt-2">Secures <strong>liquidity for the Chairman's nest egg</strong>, enables a potential <strong>IMI Science Advisor role</strong>, and provides jobs for the team.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-5xl mb-3">💰</div>
+                    <h3 class="text-2xl font-bold text-[#ff764a]">Confirmed Revenue</h3>
+                    <p class="text-gray-600 mt-2">The execution of the <strong>Merck Beam Tracking</strong> project starts, securing <strong>$60K - $250K</strong> in Q1 revenue.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-5xl mb-3">📈</div>
+                    <h3 class="text-2xl font-bold text-[#ffa600]">Enhanced Valuation</h3>
+                    <p class="text-gray-600 mt-2">The completed Polaris-R asset makes the IP a far more seductive purchase for investors or acquirers.</p>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+    <script>
+        const wrapLabel = (label) => {
+            const maxLength = 16;
+            if (label.length <= maxLength) {
+                return label;
+            }
+            const words = label.split(' ');
+            const lines = [];
+            let currentLine = '';
+            for (const word of words) {
+                if ((currentLine + ' ' + word).trim().length > maxLength) {
+                    lines.push(currentLine.trim());
+                    currentLine = word;
+                } else {
+                    currentLine = (currentLine + ' ' + word).trim();
+                }
+            }
+            if (currentLine) {
+                lines.push(currentLine.trim());
+            }
+            return lines;
+        };
+        
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            }
+            return label;
+        };
+
+        const chartColors = {
+            blue: '#003f5c',
+            purple: '#7a5195',
+            pink: '#ef5675',
+            orange: '#ff764a',
+            yellow: '#ffa600',
+            lightPurple: '#bc5090'
+        };
+
+        const financialData = {
+            // Total cost = 5 payrolls ($250K)
+            labels: [wrapLabel('Meta Revenue (Nov-Dec)'), wrapLabel('President Salary Sacrifice (Q4)'), wrapLabel('Required Bridge Funding')],
+            datasets: [{
+                label: 'Q4 Sprint Cost Coverage (K)',
+                data: [80, 15, 155], 
+                backgroundColor: [chartColors.blue, chartColors.purple, chartColors.orange],
+                borderColor: '#fff',
+                borderWidth: 4,
+                hoverOffset: 4
+            }]
+        };
+
+        const financialCtx = document.getElementById('financialLeversChart').getContext('2d');
+        new Chart(financialCtx, {
+            type: 'doughnut',
+            data: financialData,
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        // FIX: Legend moved to top to ensure multi-line labels fit
+                        position: 'top', 
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: tooltipTitleCallback
+                        }
+                    }
+                }
+            }
+        });
+
+        const polarisData = {
+            labels: ['Simulation Speed', 'Scalability (Rays)', wrapLabel('AI/ML Ecosystem Integration')],
+            datasets: [{
+                label: 'Polaris-M (Legacy)',
+                data: [20, 30, 10],
+                backgroundColor: chartColors.lightPurple,
+                borderColor: chartColors.lightPurple,
+                borderWidth: 1
+            }, {
+                label: 'Polaris-R (Modern)',
+                data: [95, 90, 100],
+                backgroundColor: chartColors.pink,
+                borderColor: chartColors.pink,
+                borderWidth: 1
+            }]
+        };
+
+        const polarisCtx = document.getElementById('polarisComparisonChart').getContext('2d');
+        new Chart(polarisCtx, {
+            type: 'bar',
+            data: polarisData,
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        max: 100,
+                        ticks: {
+                            callback: function(value) {
+                                return value + '%'
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    },
+                    title: {
+                        display: true,
+                        text: 'Legacy vs. Modern Stack Capability (%)'
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: tooltipTitleCallback
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
